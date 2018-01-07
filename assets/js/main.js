@@ -142,7 +142,7 @@ function TextToMailTo(text){
 }
 
 $(".submitBtn").click(() => {
-	window.location.href =`mailto:gdragan6@gmail.com?
+	window.location.href =`mailto:popovskim95@gmail.com?
 	subject=${TextToMailTo($("#subject").val())}&
 	body=${TextToMailTo($("#message").val())}`;
 })
